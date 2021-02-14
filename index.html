@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1</title>
+</head>
+<body>
+    <!--Тело-->
+    <a name="top"></a>
+    <h1 align="center">Лабораторная работа №1</h1>
+    <h2 align="center">Язык разметки гипертекста HTML</h2>
+    <hr>
+    <div title="Цель работы">
+        <h3>Цель работы</h3>
+        Изучить основы языка разметки гипертекста HTML 5.
+    </div>
+    <div title="Задание">
+        <h3>Задание</h3>
+        <p>Создать html-документ, разметить его в соответствии с вариантом (см. далее по тексту). Для <b>ВСЕХ ВАРИАНТОВ</b> в разметке html-документа использовать:</p>
+        <ol type="I" start="100">
+            <li>тег &lt;!DOCTYPE&gt;</li>
+            <li>тег &lt;meta> для определения кодировки текста;</li>
+            <li>тег &lt;!--   --&gt; комментария;</li>
+            <li>новые семантические теги стандарта HTML5 для структурирования документа;</li>
+            <li>теги:
+                <ol type="i">
+                    <li>&lt;p&gt; - абзац,</li>
+                    <li>&lt;br&gt; - пере-<br>нос на другую строку,</li>
+                    <li>&lt;div&gt; - выделение блока,</li>
+                    <li><span>&lt;span&gt; - стрйоные элементы</span>,</li>
+                    <li>&lt;hr&gt; - черта для отделения,<hr></li>
+                    <li>один из &lt;h1&gt; - &lt;h6&gt; - <h1>заголовок,</h1></li>
+                    <li><pre>&lt;pre&gt; -   неформатированный                       текст</pre>,</li>
+                    <li><mark>&lt;mark&gt; - выделение жёлтым цветом</mark>,</li>
+                    <li><time datetime="2021-02-13">&lt;time&gt; - контейнер для времени и даты</time>,</li>
+                    <li>&lt;details&gt; - сворачиваемый виджет
+                        <details>
+                            <summary>&lt;summary&gt; - видимый заголовок для тега &lt;details&gt;;</summary>
+                            <p>Тег &lt;summary&gt; и &lt;details&gt; используются вместе</p>
+                        </details>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span>&lt;span&gt;продемонстрировать&lt;/span&gt;</span>
+                <span>&lt;span&gt;различие&lt;/span&gt;</span>
+                <div>&lt;div&gt;блочных&lt;/div&gt;</div>
+                <div>&lt;div&gt;и строчных&lt;/div&gt;</div>
+                тегов на примере тегов &lt;div&gt; и &lt;span&gt;;</li>
+            <li>теги &lt;figure&gt;, &lt;img&gt;, &lt;figcaption&gt; для вставки изображения;
+                <figure>
+                    <img src="Resources/lab1.jpg" alt="Нет картинок(((((">
+                    <figcaption>Скриншот из методички</figcaption>
+                </figure>
+            </li>
+            <li>тег &lt;a&gt; для разметки гиперссылок, разметить ссылки:
+                <ol type="i">
+                    <li><a href="page1.html">на другой документ;</a></li>
+                    <li><a href="#top">в пределах размечаемого документа</a>.</li>
+                </ol>
+            </li>
+            <li>теги для разметки списка, таблицы, формы в соответствии с вариантом (см. далее по тексту).</li>
+        </ol>
+    </div>
+
+    <hr>
+    <!--Таблица-->
+    <table border="1">
+        <caption align="left">Таблица</caption>
+        <tr>
+            <th>Заголовок 1</th>
+            <th colspan="2">Заголовок 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Объединённые ячейки</td>
+            <td>Информация</td>
+            <td>Информация</td>
+        </tr>
+        <tr>
+            <td>Информация</td>
+            <td>Информация</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--Форма-->
+    <form>
+        <p><input type="checkbox" name="cb1" value="HTML" checked>HTML</p>
+        <p><input type="checkbox" name="cb2" value="CSS">CSS</p>
+        <p><input type="checkbox" name="cb3" value="JS">JS</p>
+        <p>E-mail: <input type="text" name="txt"></p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+    </form>
+
+    <hr>
+    <!--Новый семантический тег-->
+    <footer>
+        <p>Футтер - новый семантический тег стандарта HTML5 для структурирования документа</p>
+        <p>Студенты: Молнер В.С., Пищулина Л.Н.</p>
+        <p>Вариант: 4</p>
+    </footer>
+</body>
+</html>
