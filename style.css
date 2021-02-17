@@ -1,0 +1,30 @@
+h1 {
+    color: #000080;
+    text-align: center;
+}
+
+h2 {
+    color: #0000A0;
+    text-align: center;
+}
+
+a {
+    color: cyan;
+}
+
+.class1 {
+    width: 1000px;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(8,115,151,0.85);
+}
+
+table {
+    border: #232C3F solid 5px;
+    font-size: 20px;
+}
+
+.class2:hover {
+    color: orange;
+}
