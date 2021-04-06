@@ -1,0 +1,45 @@
+.animatedWord {
+    margin: 5%;
+}
+
+.animatedBlock {
+    background-color: palegreen;
+    border-color: black;
+    border-style: groove;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+span {
+    margin: 3%;
+    font-size: 200%;
+    font-family: fantasy;
+}
+
+button {
+    font-weight: 700;
+    color: white;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+} 
+
+button:hover { 
+    background: rgb(53, 167, 110); 
+}
+
+button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+form {
+    align-self: center;
+    padding: 5%
+}

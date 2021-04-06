@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №4</title>
+    <link  rel="stylesheet" href="lab4style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <button onclick="startAnimation()">Запустить анимацию</button>
+    <button onclick="stopAnimation()">Остановить анимацию</button>
+    <select>
+        <option style="background-color: grey;">Чёрный</option>
+        <option style="background-color: red;">Красный</option>
+        <option style="background-color: green;">Зелёный</option>
+        <option style="background-color: blue;">Синий</option>
+    </select>
+    <input type="range" value="300" min="250" max="400" step="10">
+    <div class="animatedBlock">
+        <div class="animatedWord">
+            <span>а</span>
+            <span>н</span>
+            <span>и</span>
+            <span>м</span>
+            <span>а</span>
+            <span>ц</span>
+            <span>и</span>
+            <span>я</span>
+        </div>
+        <div class="animatedWord">
+            <span>т</span>
+            <span>е</span>
+            <span>к</span>
+            <span>с</span>
+            <span>т</span>
+            <span>а</span>
+        </div>
+    </div>
+</body>
